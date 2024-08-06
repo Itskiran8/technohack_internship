@@ -1,0 +1,40 @@
+
+
+#login{
+    background: url("img/registerbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#form-bg{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+    backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0px 0px 4px #4195fc;
+}
+
+label{
+    font-size: larger;
+    color: white;
+ 
+}
+
+
+#registerborder{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 850px;
+    background-color: rgb(91, 130, 155);
+    /* background-color: #edf2f7; */
+}
+
+#register{
+    background:url("img/registerbg.jpg");
+    /* background: url("img/images.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

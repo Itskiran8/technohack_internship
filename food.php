@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<!--  -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!--  -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row " id="food-bg">
+<div class="col-lg-12 ">
+    <nav class="navbar navbar-expand-lg " >
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand text-white" href="#" id="brand">Feane</a>
+          <div class="collapse navbar-collapse ms-5 " id="navbarTogglerDemo03 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="link">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >Book Table</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--  -->
+
+      <div class="row mt-5 p-5">
+        <div class="col-lg-6 text-white">
+        
+           <h1 style="font-family: 'Dancing Script', cursive;">Fast Food Restaurant</h1>
+    <p>“From sizzling burgers to crunchy fries, our fast food hits the spot every time. Grab a bite and feel the flavor! Ready for a flavor fiesta? Our fast food is packed with bold tastes and quick satisfaction. Come and get it!”</p>
+    <a href="" class="btn btn-warning text-white">order now !!</a>
+     </div>
+    </div>
+        
+      </div>
+    </div>
+    <!--  -->
+<div class="row ">
+  <div class="col-lg-6 mt-5" id="burger">
+  
+      <img src="img/burger.jpg" alt="">
+      <h3 class="text-center text-white ms-5 ">Tasty Thursdays</h3>
+      <h4 class="text-center text-white ms-5 ">20% OFF</h4>
+      <a href="" class="btn btn-warning mt-4 text-white">order now !!</a>
+        </div>
+
+        <div class="col-lg-6 mt-5 ms-5" id="burger">
+  
+          <img src="img/pizza.jpg" alt="">
+          <h3 class="text-center text-white ms-5 ">Pizza Days</h3>
+          <h4 class="text-center text-white ms-5 ">15% OFF</h4>
+          <a href="" class="btn btn-warning mt-4 text-white">order now !!</a>
+            </div>
+  
+    </div>
+    
+<!--  -->
+<script>document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const foodItems = document.querySelectorAll('.food-item');
+
+  filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+          const filter = this.getAttribute('data-filter');
+
+          foodItems.forEach(item => {
+              if (filter === 'all' || item.classList.contains(filter)) {
+                  item.style.display = 'block';
+              } else {
+                  item.style.display = 'none';
+              }
+          });
+      });
+  });
+
+  // Show all items by default
+  document.querySelector('[data-filter="all"]').click();
+});
+</script>
+   
+    <div class="row mt-5">
+        <h1 class="text-center">Food-Items</h1>
+        
+        <!-- Filter Buttons -->
+        <div class="text-center mb-4">
+            <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+            <button class="btn btn-secondary filter-btn" data-filter="burger">Burgers</button>
+            <button class="btn btn-success filter-btn" data-filter="pizza">Pizzas</button>
+            <button class="btn btn-warning filter-btn" data-filter="fries">Fries</button>
+        </div>
+      </div>
+        <!-- Food Items -->
+       
+        <div class="row">
+
+          <div class="col-md-4 food-item pizza">
+            <div class="card">
+                <img src="img/pizza3.png" class="card-img-top" alt="Pizza">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title text-white">Cheesy Pizza</h5>
+                    <p class="card-text text-white">Classic pizza with extra cheese and toppings.</p>
+                    <span class="text-white">$15</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                </div>
+            </div>
+        </div>
+
+            <div class="col-md-4 food-item burger">
+                <div class="card">
+                    <img src="img/burger.jpg" class="card-img-top" alt="Burger">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-white">Delicious Burger</h5>
+                        <p class="card-text text-white">Cheese burger with fresh vegetables.</p>
+                        <span class="text-white">$10</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 food-item pizza">
+                <div class="card">
+                    <img src="img/pizza.jpg" class="card-img-top" alt="Pizza">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-white">Cheesy Pizza</h5>
+                        <p class="card-text text-white">Classic pizza with extra cheese and toppings.</p>
+                        <span class="text-white">$20</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle  text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 food-item fries">
+                <div class="card">
+                    <img src="img/fries.png" class="card-img-top" alt="Fries">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-white">Crispy Fries</h5>
+                        <p class="card-text text-white">Golden fries seasoned to perfection.</p>
+                        <span class="text-white">$10</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 food-item pizza">
+              <div class="card">
+                  <img src="img/pizza1.png" class="card-img-top" alt="Pizza">
+                  <div class="card-body bg-dark">
+                      <h5 class="card-title text-white">Cheesy Pizza</h5>
+                      <p class="card-text text-white">Classic pizza with extra cheese and toppings.</p>
+                      <span class="text-white">$17</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 food-item burger">
+            <div class="card">
+                <img src="img/burger1.png" class="card-img-top" alt="Burger">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title text-white">Delicious Burger</h5>
+                    <p class="card-text text-white">Juicy beef patty with fresh vegetables.</p>
+                    <span class="text-white">$10</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                </div>
+            </div>
+        </div>
+          <div class="col-md-4 food-item pizza">
+            <div class="card">
+                <img src="img/pizza2.png" class="card-img-top" alt="Pizza">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title text-white">Cheesy Pizza</h5>
+                    <p class="card-text text-white">Classic pizza with extra cheese and toppings.</p>
+                    <span class="text-white">$10</span>
+                        <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 food-item fries">
+          <div class="card">
+              <img src="img/fries1.jpeg" class="card-img-top" alt="Fries">
+              <div class="card-body bg-dark">
+                  <h5 class="card-title text-white">Crispy Fries</h5>
+                  <p class="card-text text-white">Golden fries seasoned to perfection.</p>
+                  <span class="text-white">$20</span>
+                  <a href=""> <i class="fa-solid fa-cart-shopping offset-10 bg-warning rounded-circle text-white"></i></a>
+              </div>
+          </div>
+      </div>
+        </div>
+
+<!-- Book order  -->
+    <div class="row mt-5">
+      <div class="col-lg-5 ms-5 p-5  text-center border rounded mb-3 bg-light">
+        <form action="" >
+          <h1 style="font-family:cursive ;">Book a Table</h1>
+          <input type="text" name="" id="" class="form-control mt-3" placeholder="Your Name">
+          <input type="tel" name="" id="" class="form-control mt-3" placeholder="Your Phone-number ">
+          <input type="email" name="" id="" class="form-control mt-3" placeholder="Your E-mail">
+          <input type="number" name="" id="" class="form-control mt-3" placeholder="No. of persons">
+          <input type="date" name="" id="" class="form-control mt-3" >
+
+          <a href="" class=" mt-5 btn btn-warning">Book_Now !!</a>
+        </form>
+      </div>
+
+        <div class="col-lg-6 text-center ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110318.05938536943!2d74.8165474433594!3d30.22454510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39173313f7b504c5%3A0x85ab4b80d6ca95d1!2sArman%20fast%20food!5e0!3m2!1sen!2sin!4v1722610880129!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+     
+    </div>
+
+<!-- footer -->
+    <div class="row bg-dark text-white mt-5">
+<div class="col-lg-4 text-center p-3 ">
+<h4 style="font-family: cursive;">Contact-us</h4>
+<h6><i class="fa-solid fa-location-crosshairs p-3"></i><a href="" style="text-decoration: none; color:white">Location</a></h6>
+<h6><i class="fa-solid fa-envelope p-3"></i><a href="" style="text-decoration: none;color:white">E-mail</a></h6>
+<h6><i class="fa-solid fa-phone p-3"></i><a href=""style="text-decoration: none; color:white">9425875580 </a></h6>
+</div>
+
+<div class="col-lg-4  text-center p-3">
+  <h1 style="font-family: cursive;">Feane</h1>
+  <p>At our Restaurant , we believe that fast food doesn’t have to be ordinary. We’re passionate about bringing you mouthwatering meals that are as quick as they are delicious. Whether you're grabbing a bite on the go or dining in, we’ve got you covered with our unbeatable combination of taste, quality, and speed.</p>
+ <a href=""style="text-decoration: none; color:white"> <i class=" fa-brands fa-square-instagram"></i></a>
+  <a href=""style="text-decoration: none; color:white"><i class=" ps-2 fa-brands fa-twitter"></i></a>
+  <a href="" style="text-decoration: none; color:white"><i class="ps-3 fa-brands fa-facebook"></i></a>
+  <a href="" style="text-decoration: none; color:white"><i class=" ps-3 fa-brands fa-linkedin"></i></a>
+</div>
+
+<div class="col-lg-4 p-3 text-center">
+  <h2 style="font-family: cursive;">Opening Hours </h2>
+  <h6>Everyday</h6>
+  <p>10:00am to 10:00pm</p>
+</div>
+
+<div class="col-lg-12 text-center mt-4" >
+    <p>Copyright © Your Website 2024 <?php echo date ("Y")?> </p>
+</div>
+</div>
+
+  
+
+
+<!--  -->
+</div>
+</body>
+</html>

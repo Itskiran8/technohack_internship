@@ -1,0 +1,71 @@
+#food-bg{
+    background: url("img/food-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 600px;
+}
+
+
+#brand{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#link a {
+    color: white;
+    font-size: larger;
+    padding-left: 40px;
+}
+
+
+#link a:hover{
+    color: yellow;
+}
+
+#burger{
+    height:200px;
+    width: 500px;
+    background-color: black;
+    position: relative;
+    padding: 25px;
+    margin-left: 10%;
+}
+
+#burger img {
+    height: 70%;
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid orange;
+}
+
+#burger h3{
+    font-family: cursive;
+}
+#burger a{
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    margin-left: 200px;
+
+
+}
+
+.food-item {
+    display: none; /* Hide all items initially */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.filter-btn {
+    margin: 0 5px;
+}
+
+i{
+    font-size: larger;
+}
